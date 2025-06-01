@@ -3,7 +3,7 @@ using Concilig.Entidades.Programa;
 
 class Program
 {
-    // Instanciacao de variaveis
+    // Instanciação de variaveis
     public string nivelPermissao;
     private bool continuar = true;
     private Opcoes opcoes = new Opcoes();
@@ -13,7 +13,6 @@ class Program
     static void Main(string[] args)
     {
         Program programa = new Program();
-
         programa.Executar();
     }
 
